@@ -1,0 +1,53 @@
+[
+  {
+    "id": "mt-refund-to-billing",
+    "turns": [
+      {
+        "query": "How do I get a refund for my yearly plan?",
+        "expected_docs": [
+          "refund_policy.md"
+        ]
+      },
+      {
+        "query": "Actually, different question - where do I download my invoices?",
+        "expected_docs": [
+          "billing_faq.md"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt-import-to-webhook",
+    "turns": [
+      {
+        "query": "My CSV import failed with a row error",
+        "expected_docs": [
+          "troubleshooting.md"
+        ]
+      },
+      {
+        "query": "Different question: my webhook deliveries keep failing",
+        "expected_docs": [
+          "api_guide.md"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt-roles-to-2fa",
+    "turns": [
+      {
+        "query": "What roles can I assign to teammates?",
+        "expected_docs": [
+          "account_security.md"
+        ]
+      },
+      {
+        "query": "And how do those teammates turn on two-factor?",
+        "expected_docs": [
+          "account_security.md"
+        ]
+      }
+    ]
+  }
+]

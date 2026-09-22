@@ -1,0 +1,406 @@
+[
+  {
+    "id": "ref-01",
+    "query": "How do I get a refund for my yearly plan?",
+    "expected_domain": "refunds",
+    "expected_docs": [
+      "refund_policy.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "ref-02",
+    "query": "Can I cancel my monthly subscription and get my money back?",
+    "expected_domain": "refunds",
+    "expected_docs": [
+      "refund_policy.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "ref-03",
+    "query": "I was charged twice this month, what happens now?",
+    "expected_domain": "refunds",
+    "expected_docs": [
+      "refund_policy.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "ref-04",
+    "query": "How long does a refund take to reach my card?",
+    "expected_domain": "refunds",
+    "expected_docs": [
+      "refund_policy.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "ref-05",
+    "query": "Is there a fee for refunding a yearly plan after two months?",
+    "expected_domain": "refunds",
+    "expected_docs": [
+      "refund_policy.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "ref-06",
+    "query": "My invoice is over a year old, can I still get a refund?",
+    "expected_domain": "refunds",
+    "expected_docs": [
+      "refund_policy.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "ref-07",
+    "query": "What info do I need to include in a refund request?",
+    "expected_domain": "refunds",
+    "expected_docs": [
+      "refund_policy.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "ref-08",
+    "query": "I paid by bank transfer, how do refunds work for me?",
+    "expected_domain": "refunds",
+    "expected_docs": [
+      "refund_policy.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "ref-09",
+    "query": "What happens to my account if I open a chargeback?",
+    "expected_domain": "refunds",
+    "expected_docs": [
+      "refund_policy.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "ref-10",
+    "query": "Refund of 600 USD, does it need extra review?",
+    "expected_domain": "refunds",
+    "expected_docs": [
+      "refund_policy.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "bil-01",
+    "query": "Which payment methods do you accept?",
+    "expected_domain": "billing",
+    "expected_docs": [
+      "billing_faq.md",
+      "plans.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "bil-02",
+    "query": "Where can I download my invoices as PDF?",
+    "expected_domain": "billing",
+    "expected_docs": [
+      "billing_faq.md",
+      "plans.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "bil-03",
+    "query": "My card payment failed, what happens next?",
+    "expected_domain": "billing",
+    "expected_docs": [
+      "billing_faq.md",
+      "plans.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "bil-04",
+    "query": "How do I add my GST number to invoices?",
+    "expected_domain": "billing",
+    "expected_docs": [
+      "billing_faq.md",
+      "plans.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "bil-05",
+    "query": "If I upgrade mid-month how is the charge calculated?",
+    "expected_domain": "billing",
+    "expected_docs": [
+      "billing_faq.md",
+      "plans.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "bil-06",
+    "query": "What does the Growth plan cost per month?",
+    "expected_domain": "billing",
+    "expected_docs": [
+      "billing_faq.md",
+      "plans.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "bil-07",
+    "query": "Do you offer discounts for nonprofits?",
+    "expected_domain": "billing",
+    "expected_docs": [
+      "billing_faq.md",
+      "plans.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "bil-08",
+    "query": "How many seats are included in the Starter plan?",
+    "expected_domain": "billing",
+    "expected_docs": [
+      "billing_faq.md",
+      "plans.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "bil-09",
+    "query": "What happens when my free trial ends?",
+    "expected_domain": "billing",
+    "expected_docs": [
+      "billing_faq.md",
+      "plans.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "bil-10",
+    "query": "Do you take PayPal?",
+    "expected_domain": "billing",
+    "expected_docs": [
+      "billing_faq.md",
+      "plans.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "tec-01",
+    "query": "My password reset link doesn't work anymore",
+    "expected_domain": "technical",
+    "expected_docs": [
+      "troubleshooting.md",
+      "api_guide.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "tec-02",
+    "query": "Why do my 2FA codes keep failing?",
+    "expected_domain": "technical",
+    "expected_docs": [
+      "troubleshooting.md",
+      "api_guide.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "tec-03",
+    "query": "The dashboard is really slow with lots of tickets",
+    "expected_domain": "technical",
+    "expected_docs": [
+      "troubleshooting.md",
+      "api_guide.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "tec-04",
+    "query": "My CSV import failed, how do I find the bad row?",
+    "expected_domain": "technical",
+    "expected_docs": [
+      "troubleshooting.md",
+      "api_guide.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "tec-05",
+    "query": "If I re-run a failed import will rows be duplicated?",
+    "expected_domain": "technical",
+    "expected_docs": [
+      "troubleshooting.md",
+      "api_guide.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "tec-06",
+    "query": "What is the API rate limit on the Growth plan?",
+    "expected_domain": "technical",
+    "expected_docs": [
+      "troubleshooting.md",
+      "api_guide.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "tec-07",
+    "query": "I keep getting HTTP 429 from the API",
+    "expected_domain": "technical",
+    "expected_docs": [
+      "troubleshooting.md",
+      "api_guide.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "tec-08",
+    "query": "How does pagination work on list endpoints?",
+    "expected_domain": "technical",
+    "expected_docs": [
+      "troubleshooting.md",
+      "api_guide.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "tec-09",
+    "query": "My webhook endpoint was down, will events retry?",
+    "expected_domain": "technical",
+    "expected_docs": [
+      "troubleshooting.md",
+      "api_guide.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "tec-10",
+    "query": "How do I verify a webhook signature?",
+    "expected_domain": "technical",
+    "expected_docs": [
+      "troubleshooting.md",
+      "api_guide.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "acc-01",
+    "query": "How do I invite a teammate to my workspace?",
+    "expected_domain": "account",
+    "expected_docs": [
+      "account_security.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "acc-02",
+    "query": "What roles can I assign to team members?",
+    "expected_domain": "account",
+    "expected_docs": [
+      "account_security.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "acc-03",
+    "query": "Can I use SMS for two-factor authentication?",
+    "expected_domain": "account",
+    "expected_docs": [
+      "account_security.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "acc-04",
+    "query": "How do I export all my workspace data?",
+    "expected_domain": "account",
+    "expected_docs": [
+      "account_security.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "acc-05",
+    "query": "What happens when I delete my workspace?",
+    "expected_domain": "account",
+    "expected_docs": [
+      "account_security.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "acc-06",
+    "query": "My invite link expired, what should I do?",
+    "expected_domain": "account",
+    "expected_docs": [
+      "account_security.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "acc-07",
+    "query": "Do you email me when a new device signs in?",
+    "expected_domain": "account",
+    "expected_docs": [
+      "account_security.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "acc-08",
+    "query": "Will you ever ask for my password over email?",
+    "expected_domain": "account",
+    "expected_docs": [
+      "account_security.md"
+    ],
+    "should_escalate": false
+  },
+  {
+    "id": "oos-01",
+    "query": "Do you sell used cars?",
+    "expected_domain": "other",
+    "expected_docs": [],
+    "should_escalate": true
+  },
+  {
+    "id": "oos-02",
+    "query": "What is the weather in Bangalore today?",
+    "expected_domain": "other",
+    "expected_docs": [],
+    "should_escalate": true
+  },
+  {
+    "id": "oos-03",
+    "query": "Can you help me with my taxes?",
+    "expected_domain": "other",
+    "expected_docs": [],
+    "should_escalate": true
+  },
+  {
+    "id": "oos-04",
+    "query": "Write me a poem about databases",
+    "expected_domain": "other",
+    "expected_docs": [],
+    "should_escalate": true
+  },
+  {
+    "id": "oos-05",
+    "query": "Who won the cricket match yesterday?",
+    "expected_domain": "other",
+    "expected_docs": [],
+    "should_escalate": true
+  },
+  {
+    "id": "oos-06",
+    "query": "What's the best restaurant near MG Road?",
+    "expected_domain": "other",
+    "expected_docs": [],
+    "should_escalate": true
+  }
+]
