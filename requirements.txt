@@ -1,0 +1,3 @@
+# Core harness has NO hard dependencies (pure standard library).
+# Only needed for Claude-backed generation:
+anthropic>=0.40.0
