@@ -29,6 +29,14 @@ tests/            pytest suite, fully offline
 docs/THREAT_MODEL.md
 ```
 
+## Why I built this
+
+I'm on the tech ops team at PhonePe. Operations folks come to us with questions all day, and honestly, most answers already exist in our docs. The problem is there are so many documents, in so many versions, that pointing someone to the right one takes longer than just answering. And when we can't find it, people guess.
+
+So I built the thing I wanted to exist: you ask a question, it finds the right chunk of the right document, answers with the citation, and if the answer isn't there it says so instead of hallucinating.
+
+It's small on purpose. Each stage sits behind an interface, so I can swap in a real embedding model or Claude for generation without rewriting everything.
+
 ## Architecture
 
 ```
