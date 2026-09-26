@@ -97,6 +97,29 @@ docker run --rm -e ANTHROPIC_API_KEY=$ANTHROPIC_API_KEY kbharness \
     python -m kbharness ask "How do I get a refund for a yearly plan?"
 ```
 
+## Example run
+
+After `python -m kbharness ingest`, a question runs the full pipeline offline:
+
+```
+$ python -m kbharness ask "How do I get a refund for a yearly plan?"
+[trace ef5ff884e5ea] domain=refunds latency=1ms
+
+From our docs [refund_policy.md#0]: Monthly plans can be cancelled at any time and stop renewing at the end of the current billing month. Yearly plans can be refunded in full within 30 days of purchase. After 30 days, yearly plans are refunded pro-rata for the remaining full months, minus a 10% administration fee.
+
+From our docs [refund_policy.md#1]: Refunds are issued to the original payment method within 5-7 business days. To request a refund, email billing@northwind.example from the account email address and include your invoice number.
+```
+
+And when the docs don't cover the question, it escalates instead of guessing:
+
+```
+$ python -m kbharness ask "Do you sell used cars?"
+I don't have anything reliable on that in my knowledge base - handing you to a human specialist.
+   (trace 3850e6601bc3, domain=other, escalated=True)
+```
+
+Both are copied from a real offline run (no API key). Every answer carries a trace id; `reports/traces.jsonl` has the per-stage latency breakdown behind it.
+
 ## The eval harness
 
 `evals/eval_set.json` holds 44 cases across refunds, billing, technical,
